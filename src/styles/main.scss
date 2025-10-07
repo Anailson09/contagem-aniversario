@@ -10,15 +10,21 @@
     font-family: Roboto, sans-serif;
     color: variables.$textColor;
     list-style: none;
+        overflow-x: hidden;
+
 }
 
 .container {
-    max-width: 960px;
+    max-width: 980px;
     width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 
     @media (max-width: 640px) {
         max-width: 80%;
+        margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     }
 
     @media (max-width: 1024px) {
